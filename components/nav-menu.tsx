@@ -39,7 +39,7 @@ export function NavMenu() {
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8">
                 <img
-                  src="/logo.png"
+                  src="mjcal-logo.png"
                   alt="MJCal Development"
                   className="w-full h-full rounded-md object-cover"
                 />

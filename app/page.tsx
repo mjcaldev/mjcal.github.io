@@ -38,7 +38,7 @@ export default function Home() {
         >
           <div className="mb-8">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=200&h=200"
+              src="mjcal-profile.jpg"
               alt="MJ Cal"
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
