@@ -45,7 +45,7 @@ export function NavMenu() {
                 />
               </div>
               <Link href="/" className="text-xl font-bold">
-                MJCal Development
+                mjcal development
               </Link>
             </div>
 

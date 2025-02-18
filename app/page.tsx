@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { NavMenu } from '@/components/nav-menu'
-import { Github, Linkedin, Twitter, Code, MessageSquare, Flame } from 'lucide-react'
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { SiCodewars, SiDiscord, SiFreecodecamp } from "react-icons/si";
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { SkillsCarousel } from '@/components/skills-carousel'
@@ -16,12 +17,12 @@ export default function Home() {
   }, [])
 
   const socialLinks = [
-    { href: "https://github.com", Icon: Github },
-    { href: "https://linkedin.com", Icon: Linkedin },
-    { href: "https://twitter.com", Icon: Twitter },
-    { href: "https://www.codewars.com", Icon: Code },
-    { href: "https://discord.com", Icon: MessageSquare },
-    { href: "https://www.freecodecamp.org", Icon: Flame },
+    { href: "https://github.com", Icon: FaGithub },
+    { href: "https://linkedin.com", Icon: FaLinkedin },
+    { href: "https://x.com", Icon: FaXTwitter},
+    { href: "https://www.codewars.com", Icon: SiCodewars },
+    { href: "https://discord.com", Icon: SiDiscord },
+    { href: "https://www.freecodecamp.org", Icon: SiFreecodecamp },
   ]
 
   return (
