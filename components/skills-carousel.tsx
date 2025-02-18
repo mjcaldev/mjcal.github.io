@@ -1,37 +1,29 @@
 "use client"
 
 import { motion, useAnimationControls } from 'framer-motion'
-import { 
-  Code2, 
-  FileJson, 
-  Container as Docker, 
-  Server, 
-  Boxes, 
-  Workflow, 
-  Terminal, 
-  Database, 
-  Brain, 
-  Palette, 
-  Brush, 
-  Layout 
-} from 'lucide-react'
+import {
+  SiJavascript, SiTypescript, SiDocker, SiNodedotjs, SiNextdotjs, 
+  SiNestjs, SiExpress, SiMysql, SiMongodb, SiTensorflow, 
+  SiCss3, SiSass, SiTailwindcss
+} from "react-icons/si"
 import { useEffect } from 'react'
 
 const skills = [
-  { name: 'JavaScript', icon: Code2 },
-  { name: 'TypeScript', icon: FileJson },
-  { name: 'Docker', icon: Docker },
-  { name: 'Node.js', icon: Server },
-  { name: 'Next.js', icon: Boxes },
-  { name: 'Nest.js', icon: Workflow },
-  { name: 'Express', icon: Terminal },
-  { name: 'SQL', icon: Database },
-  { name: 'MongoDB', icon: Database },
-  { name: 'AI', icon: Brain },
-  { name: 'CSS', icon: Palette },
-  { name: 'SASS', icon: Brush },
-  { name: 'Tailwind', icon: Layout },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "Docker", icon: SiDocker },
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Nest.js", icon: SiNestjs },
+  { name: "Express", icon: SiExpress },
+  { name: "SQL", icon: SiMysql },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "AI", icon: SiTensorflow },
+  { name: "CSS", icon: SiCss3 },
+  { name: "SASS", icon: SiSass },
+  { name: "Tailwind", icon: SiTailwindcss },
 ]
+
 
 // Duplicate the skills array to create a seamless loop
 const duplicatedSkills = [...skills, ...skills]
