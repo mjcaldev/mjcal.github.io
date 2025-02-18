@@ -4,7 +4,8 @@ import { motion, useAnimationControls } from 'framer-motion'
 import {
   SiJavascript, SiTypescript, SiDocker, SiNodedotjs, SiNextdotjs, 
   SiNestjs, SiExpress, SiMysql, SiMongodb, SiTensorflow, 
-  SiCss3, SiSass, SiTailwindcss
+  SiCss3, SiSass, SiTailwindcss,
+  SiPython
 } from "react-icons/si"
 import { useEffect } from 'react'
 
@@ -18,7 +19,8 @@ const skills = [
   { name: "Express", icon: SiExpress },
   { name: "SQL", icon: SiMysql },
   { name: "MongoDB", icon: SiMongodb },
-  { name: "AI", icon: SiTensorflow },
+  { name: "Python", icon: SiPython },
+  { name: "TensorFlow", icon: SiTensorflow },
   { name: "CSS", icon: SiCss3 },
   { name: "SASS", icon: SiSass },
   { name: "Tailwind", icon: SiTailwindcss },
@@ -35,7 +37,7 @@ export function SkillsCarousel() {
     controls.start({
       x: "-50%",
       transition: {
-        duration: 20,
+        duration: 18,
         repeat: Infinity,
         ease: "linear",
       },
@@ -53,7 +55,7 @@ export function SkillsCarousel() {
           controls.start({
             x: "-50%",
             transition: {
-              duration: 20,
+              duration: 18,
               repeat: Infinity,
               ease: "linear",
             },

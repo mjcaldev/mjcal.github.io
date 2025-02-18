@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { NavMenu } from '@/components/nav-menu'
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import { SiCodewars, SiDiscord, SiFreecodecamp } from "react-icons/si";
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
@@ -23,6 +23,7 @@ export default function Home() {
     { href: "https://www.codewars.com", Icon: SiCodewars },
     { href: "https://discord.com", Icon: SiDiscord },
     { href: "https://www.freecodecamp.org", Icon: SiFreecodecamp },
+    { href: '/contact', Icon: FaEnvelope}
   ]
 
   return (
@@ -58,9 +59,17 @@ export default function Home() {
               className="max-w-2xl mx-auto border border-border/40 rounded-lg p-4 mb-8"
             >
               <p className="text-sm text-muted-foreground">
-                Hi, I'm Micheal, it's nice to meet you! I'm a fullstack software engineer with a strong background in JavaScript and Python as well as AI powered tools like Bolt, Replit, and Tempo Labs. I have also program/project managed for multiple global applications. I bring business value, voice of user, and organization to every project I engineer.
+              Hi! It's nice to meet you. I'm a software engineer specializing in fullstack development & AI integration. My background in planning and launching 10+ global apps & sites has made my approach to engineering laser focused on providing real, tangible value. You can see the toolbelt I use to solve problems below.
               </p>
             </motion.div>
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 10 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="text-lg font-semibold text-muted-foreground mb-6"
+            >
+              Check out my socials and get in touch!
+            </motion.p>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: isLoaded ? 1 : 0 }}
@@ -110,8 +119,8 @@ export default function Home() {
               transition={{ duration: 0.3 }}
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
-              <h3 className="text-xl font-semibold mb-4">Technical Excellence</h3>
-              <p className="text-muted-foreground">Proven track record of delivering high-quality software solutions using modern technologies and best practices.</p>
+              <h3 className="text-xl font-semibold mb-4">Full-Stack Engineering</h3>
+              <p className="text-muted-foreground">Well versed in using multiple languages and frameworks like JavaScript, Python, and Ruby to deliver functional and scalable code.</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -122,7 +131,7 @@ export default function Home() {
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
               <h3 className="text-xl font-semibold mb-4">Problem Solving</h3>
-              <p className="text-muted-foreground">Analytical mindset with a passion for solving complex technical challenges and optimizing solutions.</p>
+              <p className="text-muted-foreground">Systematic and logical in both analysis and solution of problems. Check out my CodeWars!</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -133,7 +142,7 @@ export default function Home() {
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
               <h3 className="text-xl font-semibold mb-4">Collaboration</h3>
-              <p className="text-muted-foreground">Strong team player with excellent communication skills and experience in cross-functional environments.</p>
+              <p className="text-muted-foreground">Experienced working on and leading teams to plan, develop, and launch 10+ sites and apps in 20 countries.</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -143,8 +152,8 @@ export default function Home() {
               transition={{ duration: 0.3, delay: 0.6 }}
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
-              <h3 className="text-xl font-semibold mb-4">Innovation</h3>
-              <p className="text-muted-foreground">Passionate about staying current with emerging technologies and bringing innovative solutions to the table.</p>
+              <h3 className="text-xl font-semibold mb-4">Program & Project Management</h3>
+              <p className="text-muted-foreground">PMP certified program/project manager who develops with the schedule and budget at top of mind.</p>
             </motion.div>
           </div>
         </div>
