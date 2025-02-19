@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/logo.png',
-        href: '/logo.png',
+        url: '/favicon.ico',
+        href: '/favicon.ico',
       },
     ],
     apple: {
-      url: '/logo.png',
-      href: '/logo.png',
+      url: '/favicon.ico',
+      href: '/favicon.ico',
     },
   },
 };
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark">
