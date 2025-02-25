@@ -160,6 +160,7 @@ export default function Home() {
       </section>
 
       {/* Projects and Blog Section */}
+      {false && (
       <section className="min-h-screen flex items-center justify-center py-20 px-4">
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -181,7 +182,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      )}
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center justify-center py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
