@@ -17,12 +17,12 @@ export default function Home() {
   }, [])
 
   const socialLinks = [
-    { href: "https://github.com", Icon: FaGithub },
-    { href: "https://linkedin.com", Icon: FaLinkedin },
-    { href: "https://x.com", Icon: FaXTwitter},
-    { href: "https://www.codewars.com", Icon: SiCodewars },
-    { href: "https://discord.com", Icon: SiDiscord },
-    { href: "https://www.freecodecamp.org", Icon: SiFreecodecamp },
+    { href: "https://github.com/mjcaldev", Icon: FaGithub },
+    { href: "https://linkedin.com/in/mjcal", Icon: FaLinkedin },
+    { href: "https://x.com/mjcaldev", Icon: FaXTwitter},
+    { href: "https://www.codewars.com/users/mjcaldev", Icon: SiCodewars },
+    { href: "https://discord.gg/JNszyQn8", Icon: SiDiscord },
+    { href: "https://www.freecodecamp.org/mjcaldev", Icon: SiFreecodecamp },
     { href: '/contact', Icon: FaEnvelope}
   ]
 
