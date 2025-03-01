@@ -59,7 +59,7 @@ export default function Home() {
               className="max-w-2xl mx-auto border border-border/40 rounded-lg p-4 mb-8"
             >
               <p className="text-sm text-muted-foreground">
-              Hi! It's nice to meet you. I'm a software engineer specializing in fullstack development & AI integration. My background in planning and launching 10+ global apps & sites has made my approach to engineering laser focused on providing real, tangible value. You can see the toolbelt I use to solve problems below.
+              Hi! It's nice to meet you. I'm a software engineer specializing in fullstack development & AI integration. My background in planning and launching 10+ global SaaS and SaMD has made my approach to engineering laser focused on providing real, tangible value. You can see the toolbelt I use to solve problems below.
               </p>
             </motion.div>
             <motion.p
