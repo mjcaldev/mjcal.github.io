@@ -8,15 +8,15 @@ import { Button } from '@/components/ui/button'
 
 const projects = [
   {
-    title: "Project One",
-    description: "A full-stack application built with Next.js and TypeScript.",
+    title: "Personal Finance App",
+    description: "A full-stack finance application built with Next.js and TypeScript.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com",
     demo: "https://demo.com"
   },
   {
-    title: "Project Two",
+    title: "Dentist Landing Page",
     description: "Real-time data visualization dashboard.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
     tags: ["React", "D3.js", "Firebase"],
