@@ -58,9 +58,16 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="max-w-2xl mx-auto border border-border/40 rounded-lg p-4 mb-8"
             >
-              <p className="text-sm text-muted-foreground">
-              Hi! It's nice to meet you. I'm a software engineer specializing in fullstack development & AI integration. My background in planning and launching 10+ global SaaS and SaMD has made my approach to engineering laser focused on providing real, tangible value. You can see the toolbelt I use to solve problems below.
+              <p className="text-sm text-muted-foreground space-y-4">
+                Hi! It's nice to meet you. I'm a software engineer specializing in fullstack development & AI integration. I'm also a PMP-certified technical project manager.  
+                <br/><br/>
+                Whether I’m developing a new feature with AI-powered code editors, troubleshooting RESTful APIs, integrating Gemini’s newest model into a content generator’s backend, or leading a technical project in JIRA and Asana — I deliver quality and communicate effectively.
+                <br/><br/>
+                I've planned and launched 15+ global SaaS and SaMD products. That experience has sharpened my engineering approach to laser-focus on providing real, tangible value.
+                <br/><br/>
+                Below, you’ll find a growing list of tools I use to plan, engineer, and support solutions that solve real-world problems.
               </p>
+
             </motion.div>
             <motion.p
               initial={{ opacity: 0, y: 10 }}
@@ -120,7 +127,7 @@ export default function Home() {
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
               <h3 className="text-xl font-semibold mb-4">Full-Stack Engineering</h3>
-              <p className="text-muted-foreground">Well versed in using multiple languages and frameworks like JavaScript, Python, and Ruby to deliver functional and scalable code.</p>
+              <p className="text-muted-foreground">Well versed in using multiple languages and frameworks like JavaScript (React.js & Node.js), Python (PyTorch, Django & TensorFlow), and Ruby (Rails & Sinatra) to deliver functional and scalable code.</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -131,7 +138,7 @@ export default function Home() {
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
               <h3 className="text-xl font-semibold mb-4">Problem Solving</h3>
-              <p className="text-muted-foreground">Systematic and logical in both analysis and solution of problems. Check out my CodeWars!</p>
+              <p className="text-muted-foreground">Systematic and logical in both analysis and solution of problems. Check out my CodeWars or ask me about a recent client negotiation!</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -142,7 +149,7 @@ export default function Home() {
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
               <h3 className="text-xl font-semibold mb-4">Collaboration</h3>
-              <p className="text-muted-foreground">Experienced working on and leading teams to plan, develop, and launch 10+ sites and apps in 20 countries.</p>
+              <p className="text-muted-foreground">Experienced working on and leading teams to plan, develop, localize & launch global landing pages, applications, and professional services.</p>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -153,7 +160,7 @@ export default function Home() {
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
               <h3 className="text-xl font-semibold mb-4">Program & Project Management</h3>
-              <p className="text-muted-foreground">PMP certified program/project manager who develops with the schedule and budget at top of mind.</p>
+              <p className="text-muted-foreground">PMP certified program/project manager who both develops and technically manages the project with the schedule and budget at top of mind.</p>
             </motion.div>
           </div>
         </div>

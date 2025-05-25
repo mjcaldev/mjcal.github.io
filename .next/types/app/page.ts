@@ -1,4 +1,4 @@
-// File: /home/mjcal/SWE/mjcal.github.io/app/page.tsx
+// File: /Users/C/SWE/mjcal.github.io/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
