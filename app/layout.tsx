@@ -1,14 +1,15 @@
 import './globals.css';
+import AnalyticsWrapper from '@/components/AnalyticsWrapper';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'mjcal development',
-  description: 'Micheal J Callaghan Portfolio',
+  description: 'Micheal J Callaghan SWE & PMP Portfolio',
   icons: {
     icon: [
       {
@@ -37,7 +38,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
         </ThemeProvider>
-        <Analytics />
+        <AnalyticsWrapper />
       </body>
     </html>
   );
