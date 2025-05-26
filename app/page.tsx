@@ -23,7 +23,7 @@ export default function Home() {
     { href: "https://www.codewars.com/users/mjcaldev", Icon: SiCodewars },
     { href: "https://discord.gg/JNszyQn8", Icon: SiDiscord },
     { href: "https://www.freecodecamp.org/mjcaldev", Icon: SiFreecodecamp },
-    { href: 'https://wa.me/8453465537?text=Hey%2C%20I%27m%20Micheal%21%20I%27m%20looking%20forward%20to%20chatting%20with%20you.', Icon: FaWhatsapp }
+    { href: 'https://wa.me/+18453465537?text=Hey%2C%20I%27m%20Micheal%21%20I%27m%20looking%20forward%20to%20chatting%20with%20you.', Icon: FaWhatsapp }
   ]
 
   return (
