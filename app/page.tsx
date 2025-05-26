@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { NavMenu } from '@/components/nav-menu'
-import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaXTwitter, FaWhatsapp } from "react-icons/fa6";
 import { SiCodewars, SiDiscord, SiFreecodecamp } from "react-icons/si";
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
@@ -23,7 +23,7 @@ export default function Home() {
     { href: "https://www.codewars.com/users/mjcaldev", Icon: SiCodewars },
     { href: "https://discord.gg/JNszyQn8", Icon: SiDiscord },
     { href: "https://www.freecodecamp.org/mjcaldev", Icon: SiFreecodecamp },
-    { href: '/contact', Icon: FaEnvelope}
+    { href: 'https://wa.me/8453465537?text=Hey%2C%20I%27m%20Micheal%21%20I%27m%20looking%20forward%20to%20chatting%20with%20you.', Icon: FaWhatsapp }
   ]
 
   return (
@@ -59,13 +59,13 @@ export default function Home() {
               className="max-w-2xl mx-auto border border-border/40 rounded-lg p-4 mb-8"
             >
               <p className="text-sm text-muted-foreground space-y-4">
-                Hi! It's nice to meet you. I'm a software engineer specializing in fullstack development & AI integration. I'm also a PMP-certified technical project manager.  
+                Hi! It's nice to meet you. I'm a software engineer specializing in <strong>fullstack web development & AI integrations</strong>. I'm also a <strong>PMP-certified technical project manager</strong>.  
                 <br/><br/>
-                Whether I’m developing a new feature with AI-powered code editors, troubleshooting RESTful APIs, integrating Gemini’s newest model into a content generator’s backend, or leading a technical project in JIRA and Asana — I deliver quality and communicate effectively.
+                Whether I’m developing a new feature with Codex or Cursor, troubleshooting <strong>RESTful APIs in Postman</strong>, integrating Gemini’s newest model into a <strong>landing page generator’s backend</strong>, or leading a technical project in JIRA and Asana — I deliver quality and communicate effectively.
                 <br/><br/>
-                I've planned and launched 15+ global SaaS and SaMD products. That experience has sharpened my engineering approach to laser-focus on providing real, tangible value.
+                I've planned and launched <strong>15+ global SaaS and SaMD products</strong>. That experience has sharpened my engineering approach to laser-focus on providing efficient, tangible value.
                 <br/><br/>
-                Below, you’ll find a growing list of tools I use to plan, engineer, and support solutions that solve real-world problems.
+                Below, you’ll find a growing list of tools I use to <strong>plan, engineer, localize and support global solutions</strong> that solve real-world problems.
               </p>
 
             </motion.div>
