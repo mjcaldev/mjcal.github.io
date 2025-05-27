@@ -3,6 +3,10 @@ import AnalyticsWrapper from '@/components/AnalyticsWrapper';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
+import { Toaster } from "@/components/ui/toaster";
+
+<Toaster />
+
 
 const inter = Inter({ subsets: ['latin'] });
 

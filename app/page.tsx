@@ -5,9 +5,10 @@ import { motion } from 'framer-motion'
 import { NavMenu } from '@/components/nav-menu'
 import { FaGithub, FaLinkedin, FaXTwitter, FaWhatsapp } from "react-icons/fa6";
 import { SiCodewars, SiDiscord, SiFreecodecamp } from "react-icons/si";
-import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { SkillsCarousel } from '@/components/skills-carousel'
+import Link from 'next/link'
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -194,24 +195,7 @@ export default function Home() {
       <section id="contact" className="min-h-screen flex items-center justify-center py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-12">Get in Touch</h2>
-          <form className="max-w-md mx-auto space-y-6">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full p-3 rounded-md bg-card border border-border"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full p-3 rounded-md bg-card border border-border"
-            />
-            <textarea
-              placeholder="Your Message"
-              rows={4}
-              className="w-full p-3 rounded-md bg-card border border-border"
-            />
-            <Button size="lg" className="w-full">Send Message</Button>
-          </form>
+          <ContactForm />
         </div>
       </section>
     </main>
