@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/meet",
+      "destination": "https://calendly.com/mjcalcontact",
+      "permanent": true
+    }
+  ]
+}
