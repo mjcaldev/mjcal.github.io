@@ -220,7 +220,7 @@ export default function Home() {
             >
               <h3 className="text-xl font-semibold mb-4">Collaboration</h3>
               <p className="text-muted-foreground">
-                I regularly lead and/or contribute to multilingual, multicutltural teams using tools like Asana, Notion, JIRA, Excalidraw, and Loom.
+                I regularly lead and contribute to multilingual, multicutltural teams using tools like Asana, Notion, JIRA, Excalidraw, and Loom. Whether I work with your team or need to supply my own, I look forward to it!
               </p>
             </motion.div>
             <motion.div
