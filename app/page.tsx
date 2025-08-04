@@ -200,6 +200,21 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               whileHover={{ y: -10 }}
               viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.6 }}
+              className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
+            >
+              <h3 className="text-xl font-semibold mb-4">
+                Solution Oriented
+              </h3>
+              <p className="text-muted-foreground">
+                PMP certified program/project manager and AWS Certified Solutions Architect, I build with the business need and my client at top of mind.
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              whileHover={{ y: -10 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.3, delay: 0.2 }}
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
@@ -219,21 +234,6 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-4">Rapid Learning</h3>
               <p className="text-muted-foreground">
                 As a self-educated Software Engineer, Project Manager, and Solutions Architect, I am well experienced at using the best online resources and AI to quickly establish fundamental understanding of any project.
-              </p>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              whileHover={{ y: -10 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.6 }}
-              className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
-            >
-              <h3 className="text-xl font-semibold mb-4">
-                Architecting Solutions & Managing Projects
-              </h3>
-              <p className="text-muted-foreground">
-                PMP certified program/project manager and AWS Certified Solutions Architect, I engineer with the business need and my client at top of mind.
               </p>
             </motion.div>
           </div>
