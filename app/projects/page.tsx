@@ -8,20 +8,20 @@ import { Button } from '@/components/ui/button'
 
 const projects = [
   {
-    title: "Personal Finance App",
-    description: "A full-stack finance application built with Next.js and TypeScript.",
+    title: "Mjcal Fintech: Personal Finance",
+    description: "A full-stack finance application built with Next.js, TypeScript, and functional APIs to Plaid, Appwrite, Sentry, and Dwolla.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "APIs"],
+    github: "https://github.com/mjcaldev/banking-app",
+    demo: "https://mjcal-fintech-one.vercel.app/sign-in"
   },
   {
     title: "Dentist Landing Page",
-    description: "Real-time data visualization dashboard.",
+    description: "Built with Vite, React, and Typescript, and AWS this is a simple, modern landing page with working pages and forms.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    tags: ["React", "D3.js", "Firebase"],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    tags: ["React", "Vite", "AWS"],
+    github: "https://github.com/mjcaldev/dentist-ctg",
+    demo: "https://dentist-ctg.vercel.app/"
   },
   // Add more projects as needed
 ]

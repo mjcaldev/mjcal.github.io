@@ -204,10 +204,10 @@ export default function Home() {
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
               <h3 className="text-xl font-semibold mb-4">
-                Solution Oriented
+                Solutions Oriented
               </h3>
               <p className="text-muted-foreground">
-                PMP certified program/project manager and AWS Certified Solutions Architect, I build with the business need and my client at top of mind.
+                As a PMP certified project manager and AWS Certified Solutions Architect, I build solutions to real business problems with timeline and budget at top of mind.
               </p>
             </motion.div>
             <motion.div
@@ -247,9 +247,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Projects */}
               <div className="text-center bg-background/80 p-12 rounded-lg transition-all duration-500 hover:bg-background">
-                <h2 className="text-3xl font-bold mb-8">My Projects</h2>
+                <h2 className="text-3xl font-bold mb-8">Check out a few of my projects!</h2>
                 <Button asChild size="lg">
-                  <Link href="/projects">View Projects</Link>
+                  <Link href="/projects">Go to projects</Link>
                 </Button>
               </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
               <div className="text-center bg-black/80 p-12 rounded-lg transition-all duration-500 hover:bg-black">
                 <h2 className="text-3xl font-bold mb-8">Truthy</h2>
                 <Button asChild size="lg" variant="secondary">
-                  <Link href="/blog">Read My Blog</Link>
+                  <Link href="/blog">Jump to Truthy.io</Link>
                 </Button>
               </div>
             </div>
@@ -270,7 +270,7 @@ export default function Home() {
         className="min-h-screen flex items-center justify-center py-20 px-4"
       >
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-12">Get in Touch</h2>
+          <h2 className="text-3xl font-bold mb-12">Leave me a note!</h2>
           <ContactForm />
         </div>
       </section>
