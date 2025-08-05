@@ -115,3 +115,7 @@
 .animate-border-draw {
   animation: border-draw 1.2s ease forwards;
 }
+
+html {
+  scroll-behavior: smooth;
+}

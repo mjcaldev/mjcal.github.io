@@ -38,7 +38,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section
-        id="about"
+        id="Home"
         className="min-h-screen flex items-center justify-center relative px-4"
       >
         <motion.div
