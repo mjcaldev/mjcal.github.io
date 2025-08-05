@@ -7,6 +7,8 @@ import { FaGithub, FaLinkedin, FaXTwitter, FaWhatsapp } from "react-icons/fa6";
 import { SiCodewars, SiDiscord, SiFreecodecamp } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import { SkillsCarousel } from "@/components/skills-carousel";
+import { AnimatedBorderCard } from "@/components/AnimatedBorderCard";
+
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
@@ -158,7 +160,7 @@ export default function Home() {
             className="mt-6"
           >
             <Link
-              href="#skills"
+              href="/about"
               className="inline-block px-6 py-2 border border-primary rounded-full text-sm text-primary hover:bg-primary hover:text-background transition-colors"
             >
               Learn More About Me
@@ -192,7 +194,9 @@ export default function Home() {
                 Full-Stack Engineering
               </h3>
               <p className="text-muted-foreground">
-                Well versed in many technologies JavaScript, Python, APIs, AI, Oauth, Cloud and how they work together to create solutions from simple sites to enterprise, multiple-tier applicaitons.
+                Well versed in many technologies JavaScript, Python, APIs, AI,
+                Oauth, Cloud and how they work together to create solutions from
+                simple sites to enterprise, multiple-tier applicaitons.
               </p>
             </motion.div>
             <motion.div
@@ -203,11 +207,11 @@ export default function Home() {
               transition={{ duration: 0.3, delay: 0.6 }}
               className="p-6 rounded-lg bg-card flex flex-col items-center justify-center text-center"
             >
-              <h3 className="text-xl font-semibold mb-4">
-                Solutions Oriented
-              </h3>
+              <h3 className="text-xl font-semibold mb-4">Solutions Oriented</h3>
               <p className="text-muted-foreground">
-                As a PMP certified project manager and AWS Certified Solutions Architect, I build solutions to real business problems with timeline and budget at top of mind.
+                As a PMP certified project manager and AWS Certified Solutions
+                Architect, I build solutions to real business problems with
+                timeline and budget at top of mind.
               </p>
             </motion.div>
             <motion.div
@@ -220,7 +224,10 @@ export default function Home() {
             >
               <h3 className="text-xl font-semibold mb-4">Collaboration</h3>
               <p className="text-muted-foreground">
-                I regularly lead and contribute to multilingual, multicutltural teams using tools like Asana, Notion, JIRA, Excalidraw, and Loom. Whether I work with your team or need to supply my own, I look forward to it!
+                I regularly lead and contribute to multilingual, multicutltural
+                teams using tools like Asana, Notion, JIRA, Excalidraw, and
+                Loom. Whether I work with your team or need to supply my own, I
+                look forward to it!
               </p>
             </motion.div>
             <motion.div
@@ -233,7 +240,10 @@ export default function Home() {
             >
               <h3 className="text-xl font-semibold mb-4">Rapid Learning</h3>
               <p className="text-muted-foreground">
-                As a self-educated Software Engineer, Project Manager, and Solutions Architect, I am well experienced at using the best online resources and AI to quickly establish fundamental understanding of any project.
+                As a self-educated Software Engineer, Project Manager, and
+                Solutions Architect, I am well experienced at using the best
+                online resources and AI to quickly establish fundamental
+                understanding of any project.
               </p>
             </motion.div>
           </div>
@@ -241,29 +251,34 @@ export default function Home() {
       </section>
 
       {/* Projects and Blog Section */}
-      {false && (
-        <section className="min-h-screen flex items-center justify-center py-20 px-4">
-          <div className="max-w-6xl mx-auto w-full">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              {/* Projects */}
-              <div className="text-center bg-background/80 p-12 rounded-lg transition-all duration-500 hover:bg-background">
-                <h2 className="text-3xl font-bold mb-8">Check out a few of my projects!</h2>
-                <Button asChild size="lg">
-                  <Link href="/projects">Go to projects</Link>
-                </Button>
-              </div>
+      <section className="flex items-center justify-center py-24 px-6">
+        <div className="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-y-12 gap-x-24">
+          {/* Projects Card */}
+          <AnimatedBorderCard>
+            <h2 className="text-3xl font-bold mb-10">
+              Check out a few of my projects!
+            </h2>
+            <Button asChild size="lg">
+              <Link href="/projects">Go to projects</Link>
+            </Button>
+          </AnimatedBorderCard>
 
-              {/* Blog */}
-              <div className="text-center bg-black/80 p-12 rounded-lg transition-all duration-500 hover:bg-black">
-                <h2 className="text-3xl font-bold mb-8">Truthy</h2>
-                <Button asChild size="lg" variant="secondary">
-                  <Link href="/blog">Jump to Truthy.io</Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
+          {/* Truthy Card */}
+          <AnimatedBorderCard>
+            <h2 className="text-3xl font-bold mb-10">Truthy</h2>
+            <Button asChild size="lg" variant="secondary">
+              <Link
+                href="https://truthy.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jump to Truthy.io
+              </Link>
+            </Button>
+          </AnimatedBorderCard>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section
         id="contact"

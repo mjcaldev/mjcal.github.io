@@ -17,7 +17,7 @@ export default function AboutMe() {
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4">About Me</h1>
           <p className="text-xl text-muted-foreground">
-            Learn more about who I am, how I work, and what drives me as a developer.
+            Learn more about who I am, how I work, and what drives me.
           </p>
         </motion.div>
 
@@ -28,7 +28,7 @@ export default function AboutMe() {
           className="bg-card p-6 rounded-lg shadow-lg space-y-6"
         >
           <p>
-            I'm a full-stack software engineer and project manager passionate about building tools that solve real problems. I specialize in React, TypeScript, AWS, and automation—bridging the gap between engineering and real-world impact.
+            I am genuinely glad to meet you. I started my career as a Community Manager and Client Success Specialist. While I have spent a lot of time learning Web Development, Software Engineering, Project Management, and Solutions Architecutre, I have never lost sight of how important it is to keep the business need, the client experience as the primary driver.
           </p>
 
           <p>
