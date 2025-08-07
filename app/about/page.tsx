@@ -32,15 +32,15 @@ export default function AboutMe() {
           </p>
 
           <p>
-            After leading o
+            After leading or operationalizing over 15 international launches of Software as a Service and Software as a Medical Device, I have garnered a strong understanding of the full picture required to implement meaningful technology that solves problems effectively.
           </p>
 
           <p>
-            My recent work includes finance platforms, dashboard UIs, and internal tools—leveraging APIs like Plaid, Appwrite, and Dwolla.
+            My recent work includes developing and localizing international webistes, building finance platforms, dashboard UIs, and internal tools—leveraging APIs like OpenAI, AWS Lambda, Plaid, Appwrite, and Dwolla.
           </p>
 
           <p>
-            Outside of code, I’m a songwriter, musician, and ministry leader. I believe in using both logic and creativity to leave a meaningful impact.
+            Outside of building technical solutions, I’m a songwriter, singer, musician, and ministry leader. I believe in using the gifts of logic and creativity to leave a meaningful impact on our communities and the world.
           </p>
         </motion.div>
       </section>
