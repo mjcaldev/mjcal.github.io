@@ -75,22 +75,22 @@ export default function Home() {
               {
                 icon: "👨‍💻",
                 title: "Software Engineer",
-                text: "Fullstack Web & App Engineer specializing JavaScript, Python, & AI",
+                text: "Fullstack Web & App Engineer specializing JavaScript, Python, APIs, & AI",
               },
               {
                 icon: "🧠",
                 title: "Project Manager",
-                text: "PMP-certified | Led 15+ SaaS & SaMD launches and organized many B2B enterprise solutions",
+                text: "PMP-certified | Led 15+ SaaS & SaMD launches and organized multiple B2B enterprise solutions",
               },
               {
                 icon: "🚀",
                 title: "Solutions Arhitect",
-                text: "AWS Certified | Connect business needs to the best technical solutions",
+                text: "AWS Certified | I connect real business problems to the best technical solutions",
               },
               {
                 icon: "🌍",
                 title: "Experience",
-                text: "15+ Global App / Site launches, Multi - Tier Infrastrucutre, AI Catalyzed Workflows",
+                text: "I work with global & local clients shaping technology to fit their varying business needs",
               },
               {
                 icon: "💬",
@@ -194,9 +194,8 @@ export default function Home() {
                 Full-Stack Engineering
               </h3>
               <p className="text-muted-foreground">
-                Well versed in many technologies JavaScript, Python, APIs, AI,
-                Oauth, Cloud and how they work together to create solutions from
-                simple sites to enterprise, multiple-tier applicaitons.
+                Well versed in many technologies like JavaScript, Python, APIs, AI,
+                Oauth, Cloud, I focus on how I can use them to build comprehensive solutions that solve the business problem.
               </p>
             </motion.div>
             <motion.div
@@ -211,7 +210,7 @@ export default function Home() {
               <p className="text-muted-foreground">
                 As a PMP certified project manager and AWS Certified Solutions
                 Architect, I build solutions to real business problems with
-                timeline and budget at top of mind.
+                <strong>timeline and budget</strong> at top of mind.
               </p>
             </motion.div>
             <motion.div
@@ -242,7 +241,7 @@ export default function Home() {
               <p className="text-muted-foreground">
                 As a self-educated Software Engineer, Project Manager, and
                 Solutions Architect, I am well experienced at using the best
-                online resources and AI to quickly establish fundamental
+                online resources to quickly establish fundamental
                 understanding of any project.
               </p>
             </motion.div>

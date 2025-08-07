@@ -28,11 +28,11 @@ export default function AboutMe() {
           className="bg-card p-6 rounded-lg shadow-lg space-y-6"
         >
           <p>
-            I am genuinely glad to meet you. I started my career as a Community Manager and Client Success Specialist. While I have spent a lot of time learning Web Development, Software Engineering, Project Management, and Solutions Architecutre, I have never lost sight of how important it is to keep the business need, the client experience as the primary driver.
+            I am genuinely glad to meet you. My name is Micheal John Callaghan. I started my career as a Community Manager and Client Success Specialist. While I have spent a lot of time self educating into Web Development, Software Engineering, Project Management, and Solutions Architecutre, I have always kept the client as my number one priority.
           </p>
 
           <p>
-            With a background in communication and a PMP certification, I thrive in cross-functional environments where clarity, efficiency, and empathy matter just as much as code.
+            After leading o
           </p>
 
           <p>
