@@ -64,7 +64,7 @@ export default function ContactForm() {
 
         toast({
           title: "Message sent ✅",
-          description: "Thanks for reaching out! I’ll get back to you soon.",
+          description: "Thanks for reaching out! I’ll get back to you in 1-2 business days.",
         })
       } else {
         throw new Error(data.error || "Unknown error")
@@ -86,7 +86,18 @@ export default function ContactForm() {
     }`
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-6">
+    <div className="max-w-md mx-auto">
+      {status === "success" ? (
+        <div className="bg-green-100 border border-green-400 text-green-700 px-6 py-5 rounded text-center space-y-2">
+          <p className="text-lg font-semibold">✅ Message sent!</p>
+          <p>Thanks for reaching out! I’ll get back to you in 1–2 business days. - Micheal</p>
+        </div>
+      ) : (
+        <>
+    <div className="space-y-12">
+    <h2 className="text-4xl font-semibold mb-4 text-center">Leave me a note</h2>
+
+    <form onSubmit={handleSubmit} className="space-y-6">
       <input
         type="text"
         name="name"
@@ -124,5 +135,9 @@ export default function ContactForm() {
         <p className="text-red-500 text-sm">❌ {errorMessage}</p>
       )}
     </form>
+    </div>
+    </>
+    )}
+  </div>
   )
 }
